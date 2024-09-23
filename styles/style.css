@@ -1,0 +1,86 @@
+/* MacBook Pro - 1 */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 1440px;
+  height: 900px; */
+  background: #ffffff;
+}
+
+.grid_Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+  margin: 20px 0;
+  width: 80vw;
+  max-width: 1000px;
+}
+
+.first {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: #00796b;
+}
+.second {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  background-color: #8bc34a;
+}
+.third {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  background-color: #cddc39;
+}
+
+.forth {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #388e3c;
+}
+.fifth {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #c0ca33;
+}
+.sixth {
+  grid-column: 3 / 5;
+  grid-row: 2 / 3;
+  background-color: #ffeb3b;
+}
+
+.seventh {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: #4caf50;
+}
+.eight {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #afb42b;
+}
+.ninth {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #d4e157;
+}
+.tenth {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  background-color: #00796b;
+}
+
+.grid_Title {
+  background-color: #90a4ae;
+  color: black;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 80vw;
+  max-width: 1000px;
+  text-align: center;
+}
